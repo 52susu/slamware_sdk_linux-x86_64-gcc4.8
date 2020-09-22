@@ -16,7 +16,7 @@ jobs:
     - name: install
       run: |
         sudo apt-get update && \
-        sudo apt-get install binutils-arm-linux-gnueabi build-essential gcc-4.8 g++-4.8 gcc-arm-linux-gnueabihf-4.8 g++-arm-linux-gnueabihf-4.8 &&
+        sudo apt-get install binutils-arm-linux-gnueabi build-essential gcc-4.8 g++-4.8 gcc-arm-linux-gnueabihf g++-arm-linux-gnueabihf &&
         arm-linux-gnueabihf-gcc -v &&
         arm-linux-gnueabihf-g++ -v
     - name: make
