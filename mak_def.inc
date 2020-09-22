@@ -47,8 +47,10 @@ endif
 
 BUILD_TARGET := $(BUILD_TARGET_PLATFORM)-$(BUILD_TARGET_ARCH)-$(BUILD_TARGET_SCHEME)
 
-CC = gcc
-CXX = g++
+#CC = gcc
+#CXX = g++
+CC = gcc-4.8
+CXX = g++-4.8
 RM = rm -f
 MV = mv -f
 MKDIR = mkdir -p
