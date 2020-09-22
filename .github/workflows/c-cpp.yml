@@ -26,9 +26,8 @@ jobs:
         cd samples
         make V=1
         cd ..
-        ls
     - name: upload
       uses: actions/upload-artifact@v2
       with: 
         name: my-artifact
-        path: ./linux-armv7hf-release/output
+        path: ./linux-x86_64-release/output
